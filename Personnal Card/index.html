@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <script>
+        window.onload = function(){
+    document.getElementById('close').onclick = function(){
+        this.parentNode.parentNode.parentNode
+        .removeChild(this.parentNode.parentNode);
+        return false;
+    };
+};
+    </script>
+    <body>
+        <div class="card-up">
+            <div class="card puff-in-hor">
+                <span id='close'>✖</span>
+                <img class="avatar" src="images/Robot-Face.png">
+                <div class="text">
+                    <h3>Mr Hasteyr Royd</h3>
+                    <p>Frontend Developer</p>
+                    <h4>Saggitarius, A</h4>
+                </div>
+            </div>
+        </div>
+        <div>
+            <video playsinline autoplay muted loop>
+    <source src="images/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+        </div>
+    </body>
+</html>
