@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="part" id="home-part">
+                <h3>HOME</h3>
+                <div class="square-BG">
+                    <h2 class="red-score" id="home-score"></h2>
+                </div>
+                <div class="btn">
+                    <button onclick="addOnePointHome()">+1</button>
+                    <button onclick="addTwoPointsHome()">+2</button>
+                    <button onclick="addThreePointsHome()">+3</button>
+                </div>
+            </div>
+            <div class="part" id="guest-part">
+                <h3>GUEST</h3>
+                <div class="square-BG">
+                    <h2 class="red-score" id="guest-score"></h2>
+                </div>
+                <div class="btn">
+                    <button onclick="addOnePointGuest()">+1</button>
+                    <button onclick="addTwoPointsGuest()">+2</button>
+                    <button onclick="addThreePointsGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section2">
+        <button onclick="reset()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

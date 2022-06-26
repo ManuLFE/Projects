@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #18244D
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 160px;
+}
+
+.part {
+    width: 25%;
+    min-width: 150px;
+    max-width: 200px;
+}
+.square-BG {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    text-align: center;    
+}
+
+.red-score {
+    color: red;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 4rem;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 150px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+button {
+    background-color: #18244D;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 0 3%;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: 900;
+    color: white;
+    transition: ease-in-out 0.4s;
+}
+
+button:hover {
+    background-color: #263873;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.2);
+    transition: transform ease-in-out 0.4s;
+} 
+
+.section2 {
+    text-align: center;
+    margin-top: 2%;
+}
